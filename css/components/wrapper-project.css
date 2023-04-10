@@ -1,0 +1,7 @@
+.wrapper-project{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+}

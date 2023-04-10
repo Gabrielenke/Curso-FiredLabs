@@ -1,0 +1,19 @@
+.card-project{
+    width: 280px;
+    height: 280px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-project .logo{
+    height: 280px;
+    width: 280px;
+    
+}
+.card-project .logox{
+    box-shadow: 10px 10px 0px #FFF;
+    height: 280px;
+    width: 280px;
+    
+}
