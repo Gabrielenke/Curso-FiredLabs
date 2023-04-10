@@ -1,0 +1,17 @@
+.main-carousel {
+  position: relative;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-carousel .button-arrow {
+  position: absolute;
+  bottom: 70px;
+  transform: translateY(50%);
+}
+.main-carousel .button-arrow.-left {
+  left: 15px;
+}
+.main-carousel .button-arrow.-right {
+  right: 15px;
+}

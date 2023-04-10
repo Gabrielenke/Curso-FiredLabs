@@ -1,26 +1,23 @@
-.button-arrow{
-    width: 50px;
-    height: 50px;
-    box-shadow: 5px 5px 0px #000;
-    background-color: #0984e3 ;
-    cursor: pointer;
-    
-
+.button-arrow {
+  width: 50px;
+  height: 50px;
+  box-shadow: 5px 5px 0px #000;
+  background-color: #0984e3;
+  cursor: pointer;
 }
-.button-arrow .content{
-    display: none;
+.button-arrow .content {
+  display: none;
 }
-.button-arrow::before{
-    display: block;
-    content: "";
-    box-sizing: border-box;
-    width: 15px;
-    height: 15px;
-    border: 20px solid transparent;
-    border-left: 28px solid white;
-    transform: translateX(15px);
+.button-arrow::before {
+  display: block;
+  content: "";
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  border: 20px solid transparent;
+  border-left: 28px solid white;
+  transform: translateX(15px);
 }
-.button-arrow.-left::before{
-    transform: rotate(180deg) translateX(12px);
-    
+.button-arrow.-left::before {
+  transform: rotate(180deg) translateX(12px);
 }
