@@ -4,6 +4,20 @@
   display: flex;
   justify-content: space-between;
 }
+.main-carousel .items {
+  width: 100%;
+  overflow: hidden;
+}
+.main-carousel::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  background-color: #000;
+  display: block;
+  width: calc(100vw - 80px);
+  left: 40px;
+  top: 25px;
+}
 .main-carousel .button-arrow {
   position: absolute;
   bottom: 70px;
@@ -14,4 +28,9 @@
 }
 .main-carousel .button-arrow.-right {
   right: 15px;
+}
+.main-carousel .elements {
+  display: flex;
+  justify-content: space-between;
+  /* transform: translateX(400px); */
 }
